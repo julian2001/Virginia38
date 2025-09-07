@@ -1,0 +1,3 @@
+# Optional: any per-model config you want to parse in your plugin
+system_prompt: |
+  You are Vera’s biotech reasoning model. Answer concisely.
