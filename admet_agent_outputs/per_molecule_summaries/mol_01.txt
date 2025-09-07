@@ -1,0 +1,13 @@
+Molecule 1
+========================
+SMILES: C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@@H](O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O
+
+QED                   : 0.1395178432216246
+Lipinski              : 1.0
+PAMPA_NCATS           : 0.0877608753740787
+Caco2_Wang            : -6.8210688304700255
+ClinTox               : 0.1965128481388092
+DILI                  : 0.7479154229164123
+hERG                  : 0.6459730267524719
+Carcinogens_Lagunin   : 0.0244083048775792
+Flags: ⚠️ sub‑optimal drug‑like, ⚠️ low permeability, 🚨 toxicity risk

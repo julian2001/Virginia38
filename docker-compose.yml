@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    container_name: vdr-api
+    environment:
+      MODEL_NAME: ${MODEL_NAME:-gpt5_biotech_demo}
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./models:/app/models:rw   # drop-in models without rebuilding image
+      - ./api:/app/api:rw         # optional: hot dev on API code
+    restart: unless-stopped
